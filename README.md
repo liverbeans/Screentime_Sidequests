@@ -1,13 +1,14 @@
 ---
-title: 4.4 GroupA4 Capstone
-emoji: ⚡
-colorFrom: purple
-colorTo: pink
+title: 4.4 - Group A4 - Capstone Project
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
 sdk: gradio
-sdk_version: 6.22.0
+sdk_version: '6.20.0'
 python_version: '3.13'
 app_file: app.py
 pinned: false
+short_description: KWK AI/ML Capstone · Camp 4.4 · Group A4 · Summer 2026
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+This Space was created for the KWK AI/ML capstone project. Happy building!
