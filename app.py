@@ -101,12 +101,12 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
     top_chunks.append(chunk)
 # Call the get_top_chunks function with the original query
 top_results = get_top_chunks("How does water get into the sky?", chunk_embeddings, cleaned_chunks)
- # Complete this line
+ # Change this line ("How does water get into the sky?", chunk_embeddings, cleaned_chunks) to the 
 
 # Print the top results
 print(top_results)
   # Return the list of most relevant chunks
-  return top_chunks
+return top_chunks
     response = client.chat_completion(
         messages,
         max_tokens=20,
