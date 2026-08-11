@@ -11,7 +11,7 @@ from huggingface_hub import InferenceClient
 # (Settings -> Variables and secrets -> New secret).
 
 client = InferenceClient("Qwen/Qwen2.5-7B-Instruct", bill_to="kode-with-klossy")
-
+temperture = 2.0
 
 def respond(message, history):
     messages = [{"role": "system", "content": "You are a friendly chatbot."}]
@@ -23,7 +23,8 @@ def respond(message, history):
 
     response = client.chat_completion(
         messages,
-        max_tokens=100
+        max_tokens=20
+        temperature=temperature
     )
 
     return response.choices[0].message.content.strip()
