@@ -65,8 +65,8 @@ def create_embeddings(text_chunks):
 
 # Call the create_embeddings function and store the result in a new chunk_embeddings variable
 chunk_embeddings = create_embeddings(cleaned_chunks) # Complete this line
-    if history:
-        messages.extend(history)
+if history:
+    messages.extend(history)
 
     messages.append({"role": "user", "content": message})
 # Define a function to find the most relevant text chunks for a given query, chunk_embeddings, and text_chunks
