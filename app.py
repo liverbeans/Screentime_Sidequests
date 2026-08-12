@@ -3,6 +3,8 @@ import gradio as gr
 
 with gr.Blocks(theme=gr.Theme.from_hub("NeoPy/BoyKisser")) as demo:
     ...
+    gr.Markdown("# My Styled chatbot")
+demo.launch()
 from huggingface_hub import InferenceClient
 
 # This is the same pattern from the Generative AI lesson! It uses the
