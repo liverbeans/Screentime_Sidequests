@@ -97,15 +97,14 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   for i in top_indices:
     chunk= text_chunks[i]
     top_chunks.append(chunk)
-# Call the get_top_chunks function with the original query
-top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
- 
 
-# Print the top results
-print(top_results)
+ 
   # Return the list of most relevant chunks
 def respond(message, history):
-    messages = [{"role":"system", "content": "You are a friendly chatbot."}]
+    # Call the get_top_chunks function with the original query
+    top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
+    messages = [{"role":"system", "content": f"You are a friendly chatbot. Use the following research context to help answer questions:\n\n{"\n".join(top_results)}"}]
+    
     if history:
         messages.extend(history)
 
