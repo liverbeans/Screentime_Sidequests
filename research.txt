@@ -1,163 +1,49 @@
-﻿Nidhi: Age Input Data:
-Nidhi: Age Input Data:
-Ages 5–7
-* Build a blanket fort and guard it for 10 minutes
-* Find 5 different bugs outside and name them
-* Cross a room without touching the floor ("floor is lava")
-* Make a snack using only 3 ingredients
-* Talk like your favorite animal for 5 minutes
-* Make a sock puppet and put on a mini show
-* Hide a toy, draw a map, have someone find it
-* Freeze dance to 3 songs
-* Find something red, something round, something soft outside
-* Invent a superhero name and pose
-* Lie down and find shapes in the clouds
-* Decorate a printed picture of yourself
-Ages 8–10
-* Build an obstacle course and time yourself
-* Find 5 clues around the house for a mystery you invent
-* Land a paper ball in the trash from 3 spots
-* Build the tallest tower from recyclables
-* Invent a secret code and write a message to a friend
-* Freeze in a pose for 60 seconds without laughing
-* Draw a chalk mural on the sidewalk
-* Do a blindfolded taste test with 5 snacks
-* Keep a balloon off the ground for 2 minutes
-* Make a mini time capsule to open in a year
-* Invent your own sport with household items
-* Learn and perform one magic trick
-Ages 11–13
-* Learn a trending dance and perform it live
-* Attempt a trick shot (bottle flip, basketball, etc.)
-* Draw a 6-panel comic about your day
-* Make a scavenger hunt list and find everything on it
-* Try to solve a Rubik's cube or beat your best time
-* Make slime from scratch
-* Do something nice for a sibling or stranger, no reason given
-* Freestyle rap or sing about your day
-* Bike or walk somewhere new nearby
-* Build an upgraded pillow fort with "rooms"
-* Land 10 water bottle flips in a row
-* Make a playlist based on a random theme
-Ages 14–17
-* Walk, bike, or skate somewhere you've never explored
-* Take 10 photos on your phone, no filters
-* Learn 3 chords on guitar/piano/ukulele
-* Do something kind for a stranger, anonymously
-* Cook a meal using only what's in the fridge
-* Try a new trick or spot at the skate park
-* Find one weird item under $10 while thrifting
-* Journal for 10 minutes, no stopping
-* Pack a snack and find somewhere quiet to sit, no phone
-* Organize a spontaneous water balloon fight
-* Spend an hour somewhere alone, phone off
-* Host a mini basketball or paper-toss tournament
-Ages 18–25
-* Explore a part of your city you've never been to
-* Cook a meal from random fridge/pantry items
-* Strike up a conversation with someone new
-* Visit a museum, gallery, or bookstore alone, no phone
-* Make a cocktail or mocktail from scratch
-* Buy one random item under $10 and style it
-* Take a day trip somewhere within an hour, no plan
-* Sing karaoke, solo or with friends
-* Pack snacks and have a solo picnic
-* Try a random class once (pottery, boxing, dance)
-* Find a local spot with under 50 reviews and check it out
-* Watch a sunset from somewhere new
-Ages 26–30
-* Finish or restart a hobby project collecting dust
-* Throw together a spontaneous game night
-* Try a restaurant or cuisine you've never had
-* Find a hiking trail you've never explored
-* Rearrange a room or tackle a 30-minute home project
-* Recreate a fancy cocktail or mocktail at home
-* Learn a totally new board or card game
-* Go to a museum, concert, or gallery alone
-* Buy 3 things at a farmers market you've never cooked with
-* Redo something from childhood (arcade, roller skating)
-* Find a dark spot and identify 3 constellations
-* Drive somewhere with no destination for an hour
-Ages 31–49
-* Plan a spur-of-the-moment outing for family or a friend
-* Cook a recipe from a random cookbook page
-* Set up a tent or blankets and camp in the backyard
-* Drive somewhere scenic with zero plan
-* Plant something or repot a plant
-* Dust off an old board game and play
-* Tackle that home project you've delayed
-* Call or visit someone you haven't talked to in a while
-* Cook dinner using 3 surprise farmers market finds
-* Lay outside and spot constellations
-* Walk a street in your neighborhood you've never walked
-* Look through old photos and share a story
-Ages 50–60
-* Drive somewhere pretty with no destination
-* Try a class you've never taken (painting, wine tasting, pottery)
-* Visit an old friend
-* Plant or repot something new
-* Try 3 new foods from a local market
-* Write a letter to your younger or future self
-* Start a jigsaw puzzle
-* Find a nearby trail or garden you've never visited
-* Cook a dish from your childhood
-* Sit outside and sketch or people-watch for 20 minutes
-* Visit a museum or gallery you've been meaning to go to
-* Make a playlist of songs from your teenage years
-Ages 60+
-* Walk somewhere beautiful you haven't been
-* Call an old friend just to catch up
-* Try a new puzzle or card game
-* Visit a museum, garden, or historic site
-* Bake or cook something you haven't made in years
-* Write down one favorite memory
-* Sit outside and watch the world, no phone
-* Go through old photos and share a story with someone
-* Try to spot and identify 3 different birds
-* Try a class at a senior or community center
-* Write and mail a real letter to someone
-* Spend 20 minutes tending to plants or flowers
 
+If you are between ages 5 and 7, build a blanket fort and guard it for 10 minutes. Find 5 different bugs outside and name them. 
+ Cross a room without touching the floor ("floor is lava"). Make a snack using only 3 ingredients.
+ Talk like your favorite animal for 5 minutes. Make a sock puppet and put on a mini show. Hide a toy, draw a map, have someone find it.
+ Freeze dance to 3 songs. Find something red, something round, something soft outside. Invent a superhero name and pose.
+ Lie down and find shapes in the clouds. Decorate a printed picture of yourself.
+If you are between ages 8 and 10, build an obstacle course and time yourself.
+ Find 5 clues around the house for a mystery you invent. Land a paper ball in the trash from 3 spots. Build the tallest tower from recyclables.
+ Invent a secret code and write a message to a friend. Freeze in a pose for 60 seconds without laughing.
+ Draw a chalk mural on the sidewalk. Do a blindfolded taste test with 5 snacks. 
+ Keep a balloon off the ground for 2 minutes. Make a mini time capsule to open in a year.
+ Invent your own sport with household items. Learn and perform one magic trick.
+If you are between ages 11 and 13, learn a trending dance and perform it live. Attempt a trick shot (bottle flip, basketball, etc.).Draw a 6-panel comic about your day. Make a scavenger hunt list and find everything on it. Try to solve a Rubik's cube or beat your best time. Make slime from scratch. Do something nice for a sibling or stranger, no reason given. Freestyle rap or sing about your day. Bike or walk somewhere new nearby. Build an upgraded pillow fort with "rooms". Land 10 water bottle flips in a row. Make a playlist based on a random theme.
+If you are between ages 14 and 17, walk, bike, or skate somewhere you've never explored.Take 10 photos on your phone, no filters.Learn 3 chords on guitar/piano/ukulele.Do something kind for a stranger, anonymously.Cook a meal using only what's in the fridge.Try a new trick or spot at the skate park. Find one weird item under $10 while thrifting. Journal for 10 minutes, no stopping. Pack a snack and find somewhere quiet to sit, no phone. Organize a spontaneous water balloon fight. Spend an hour somewhere alone, phone off. Host a mini basketball or paper-toss tournament.
+If you are between ages 18 and 25, explore a part of your city you've never been to.Cook a meal from random fridge/pantry items.Strike up a conversation with someone new.Visit a museum, gallery, or bookstore alone, no phone.Make a cocktail or mocktail from scratch.Buy one random item under $10 and style it.Take a day trip somewhere within an hour, no plan.Sing karaoke, solo or with friends.Pack snacks and have a solo picnic.Try a random class once (pottery, boxing, dance).Find a local spot with under 50 reviews and check it out.Watch a sunset from somewhere new.
 
-Olivia: Time Input Data
-Olivia: Time Input Data:
-If you want to get off your screen for one hour, you can take a short walk in the neighborhood if you enjoy physical activity. If you are creative, in one hour you can start a scrapbook page and make a scrapbook. If you enjoy writing, in one hour you can write a journal entry. In one hour, if you like art, you can paint a picture. Or you can draw something. If you like collaging and have one hour, make a DIY collage bookmark for your current read. If you want to do something more relaxing, try bedazzling your headphones or anything else! If you love collaging and painting, try making a cute Altoids wallet. You can also bake boxed sweets or make a quick snack. If you enjoy reading, head to Goodreads and find a good book.
-If you want to do a two-hour activity, try watching a new movie; a great resource to find movies is Letterboxd! In two hours, you can crochet something if you like art or have always been interested in crocheting. Some small crocheting projects include making a headband(https://www.youtube.com/watch?v=uQI6rhZTaXE&pp=ygUQY3JvY2hldCBoZWFkYmFuZA%3D%3D), or making small bows, trinkets, or keychains. If you have two hours you can bake something more complicated like a strawberry bowl cake (https://u-taste.com/recipe/strawberry-cake/?srsltid=AfmBOooRvNj8ollBrCH9G9E6u3uYDd1jMtZvo4y-LocUrqJpLzR3u2Tz), Lemon bars (https://sallysbakingaddiction.com/lemon-bars-recipe/), or chocolate chipless cookies (https://www.thevanillabeanblog.com/chocolate-chipless-cookies), If you want to look for recipes I would recommend going on the sallys baking addiction website to find AMAZING recipes. In two hours, you can also go to your local coffee shop and have coffee while enjoying a book instead of your phone. You can also make decorations for your room, like a star garland from old paper, or start a collage wall. If you are interested in tech or coding, you can start your own website using Neocities, but this can get into the long-term range. If you want to get off your phone for three hours,s try planning something with your friends or go to a pottery class and paint pottery if you like art. If you are craft you can try to get into sewing or go thrifting for cheap clothes. If you want to do something satisfying, get candle wax and make candles in old soda or sparkling water cans. If you like activity, find a pretty place in your area to go on a run. Or you can go to something like a beach or lake near you if it's summer. If it's winter, try ice skating. Look for activities in your area like outdoor movie nights or free concerts. Even go out to see a movie in the movie theater. 
-If you have four or more hours, you can do really anything outside or a mix of anything crafty, and combine both. You can always incorporate these activities throughout the day. Some activities you could combine are going thrifting and then sewing. Listening to a podcast on the beach. Also, taking public transportation is a great way to get around if you can not drive based on where you live. Another fun thing is crafting a painting things out of air-dry clay if you like art. You can even open Canva and make your own magazine for you or your friend. You can go on a bike ride or a hike!
+If you are between ages 26 and 30, finish or restart a hobby project collecting dust.Throw together a spontaneous game night.Try a restaurant or cuisine you've never had.Find a hiking trail you've never explored.Rearrange a room or tackle a 30-minute home project.Recreate a fancy cocktail or mocktail at home.Learn a totally new board or card game.Go to a museum, concert, or gallery alone.Buy 3 things at a farmers market you've never cooked with.Redo something from childhood (arcade, roller skating).Find a dark spot and identify 3 constellations.Drive somewhere with no destination for an hour.
 
+If you are between ages 31 and 49, plan a spur-of-the-moment outing for family or a friend.Cook a recipe from a random cookbook page.Set up a tent or blankets and camp in the backyard.Drive somewhere scenic with zero plan.Plant something or repot a plant.Dust off an old board game and play.Tackle that home project you've delayed.Call or visit someone you haven't talked to in a while.Cook dinner using 3 surprise farmers market finds.Lay outside and spot constellations.Walk a street in your neighborhood you've never walked.Look through old photos and share a story.
 
+If you are between ages 50 and 60, drive somewhere pretty with no destination or have someone else drive you.Try a class you've never taken (painting, wine tasting, pottery).Visit an old friend.Plant or repot something new.Try 3 new foods from a local market.Write a letter to your younger or future self.Start a jigsaw puzzle.Find a nearby trail or garden you've never visited. Cook a dish from your childhood. Sit outside and sketch or people-watch for 20 minutes. Visit a museum or gallery you've been meaning to go to. Make a playlist of songs from your teenage years.
 
+If you are greater than the age of 60, walk somewhere beautiful you haven't been.Call an old friend just to catch up.Try a new puzzle or card game.Visit a museum, garden, or historic site.Bake or cook something you haven't made in years.Write down one favorite memory.Sit outside and watch the world, no phone.Go through old photos and share a story with someone.Try to spot and identify 3 different birds.Try a class at a senior or community center.Write and mail a real letter to someone.Spend 20 minutes tending to plants or flowers.
 
-Anji: Interest Input Data:
-Anji: Interest Input Data (Based on their feeds):
+If you want to get off your screen for one hour, you can take a short walk in the neighborhood if you enjoy physical activity.
+If you are creative, in one hour you can start a scrapbook page and make a scrapbook. 
+If you enjoy writing, in one hour you can write a journal entry. In one hour, if you like art, you can paint a picture. 
+Or you can draw something. If you like collaging and have one hour, make a DIY collage bookmark for your current read. 
+If you want to do something more relaxing, try bedazzling your headphones or anything else! If you love collaging and painting, try making a cute Altoids wallet.
+You can also bake boxed sweets or make a quick snack. If you enjoy reading, head to Goodreads and find a good book.
+If you want to do a two-hour activity, try watching a new movie; a great resource to find movies is Letterboxd!
+In two hours, you can crochet something if you like art or have always been interested in crocheting. 
+Some small crocheting projects include making a headband(https://www.youtube.com/watch?v=uQI6rhZTaXE&pp=ygUQY3JvY2hldCBoZWFkYmFuZA%3D%3D), or making small bows, trinkets, or keychains.
+If you have two hours you can bake something more complicated like a strawberry bowl cake (https://u-taste.com/recipe/strawberry-cake/?srsltid=AfmBOooRvNj8ollBrCH9G9E6u3uYDd1jMtZvo4y-LocUrqJpLzR3u2Tz), Lemon bars (https://sallysbakingaddiction.com/lemon-bars-recipe/), or chocolate chipless cookies (https://www.thevanillabeanblog.com/chocolate-chipless-cookies), If you want to look for recipes I would recommend going on the sallys baking addiction website to find AMAZING recipes.
+In two hours, you can also go to your local coffee shop and have coffee while enjoying a book instead of your phone. You can also make decorations for your room, like a star garland from old paper, or start a collage wall. If you are interested in tech or coding, you can start your own website using Neocities, but this can get into the long-term range.
+If you want to get off your phone for three hours,s try planning something with your friends or go to a pottery class and paint pottery if you like art. If you are craft you can try to get into sewing or go thrifting for cheap clothes. If you want to do something satisfying, get candle wax and make candles in old soda or sparkling water cans.
+If you like activity, find a pretty place in your area to go on a run. Or you can go to something like a beach or lake near you if it's summer.
+If it's winter, try ice skating. 
+Look for activities in your area like outdoor movie nights or free concerts. Even go out to see a movie in the movie theater. 
+If you have four or more hours, you can do really anything outside or a mix of anything crafty, and combine both. You can always incorporate these activities throughout the day. 
+Some activities you could combine are going thrifting and then sewing. Listening to a podcast on the beach. Also, taking public transportation is a great way to get around if you can not drive based on where you live. Another fun thing is crafting and painting things out of air-dry clay if you like art. 
+You can even open Canva and make your own magazine for you or your friend. You can go on a bike ride or a hike!
+If you're a fan of true crime, consider exploring local museums, trying your hand at Geocaching, participating in cemetery history walks, or taking on an escape room challenge. 
+For those who enjoy unboxing and sharing hauls on social media, you might find it fun to test skincare samples at beauty stores, create an outfit within a time limit at a thrift store, hunt for antiques at a flea market, or design a physical mood board using magazines. 
+If fitness and gym culture are your things, you could map out and execute a new 3-mile walk or run, try a random class at a local climbing, boxing, or yoga studio, or challenge yourself with a 10-minute AMRAP workout.
+Additionally, gamers might enjoy sketching character concepts in a notebook, visiting an archery range, or attending a medieval dinner or festival for a unique experience.
+If you enjoy gaming, try sketching your own character concepts in a notebook, visiting an archery range, and attending medieval dinners or festivals.
 
-
-* True Crime Rabbit Hole:
-   * Visit local museum 
-   * Geocaching
-   * Cemetery History Walks
-   * Escape Rooms
-
-
-* Unboxings, Consumerism, Hauls
-   * Trying skin care samples at beauty stores
-   * Go to a thrift store and make an outfit under a time limit
-   * Visit flea market to and find antiques
-   * Design a physical mood board with magazines
-
-
-* Fitness & Gym Culture
-   * Mapping and executing a new 3-mile walk/run
-   * Trying a single random at a local climbing, boxing, yoga, etc. studio
-   * The 10-Minute AMRAP
-
-
-* Gaming
-   * Sketching your own character concepts in a notebook
-   * Visit an archery range
-   * Medieval Dinner or Festival
-Mya: Activity based on Budget Data:
-Mya: Activity based on Budget Data:
-Low budget: go to the beach, go for a walk, go to the park, go hiking, visiting a library
-High budget:
-Medium budget: Get a meal with a friend,
+If you have a Low budget, go to the beach, go for a walk, go to the park, go hiking, or visit a library
