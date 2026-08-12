@@ -2,7 +2,7 @@ import gradio as gr
 
 chatbot = gr.ChatInterface(respond, title="screentime sidequests",
                         description="This chatbot helps you find activities to do to get off your phone")
-chatbot.launch(theme="NeoPy/BoyKisser"))
+chatbot.launch(theme="NeoPy/BoyKisser")
 
 from huggingface_hub import InferenceClient
 
