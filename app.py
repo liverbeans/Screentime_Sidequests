@@ -1,10 +1,5 @@
 import gradio as gr
 
-boykisser_theme = gr.Theme.from_hub("NeoPy/BoyKisser")
-
-
-chatbot = gr.ChatInterface(respond, theme=boykisser_theme)
-chatbot.launch()
 
 from huggingface_hub import InferenceClient
 
@@ -121,10 +116,12 @@ def respond(message, history):
     response = client.chat_completion(messages, max_tokens=100,temperature=0.7,)
 
     return response.choices[0].message.content.strip()
+boykisser_theme = gr.Theme.from_hub("NeoPy/BoyKisser")
 
-chatbot = gr.ChatInterface(respond)
 
+chatbot = gr.ChatInterface(respond, theme=boykisser_theme)
 chatbot.launch()
+
 
 
 # TODO: This is just a starting point! Customize the system prompt,
