@@ -12,7 +12,11 @@ from huggingface_hub import InferenceClient
 
 client = InferenceClient("Qwen/Qwen2.5-7B-Instruct", bill_to="kode-with-klossy")
 from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
 import torch
+
 with open("research.txt", "r", encoding="utf-8") as file:
   # Read the entire contents of the file and store it in a variable
   research_text = file.read()
@@ -62,10 +66,7 @@ def create_embeddings(text_chunks):
 
 # Call the create_embeddings function and store the result in a new chunk_embeddings variable
 chunk_embeddings = create_embeddings(cleaned_chunks) # Complete this line
-if history:
-    messages.extend(history)
 
-    messages.append({"role": "user", "content": message})
 # Define a function to find the most relevant text chunks for a given query, chunk_embeddings, and text_chunks
 def get_top_chunks(query, chunk_embeddings, text_chunks):
   # Convert the query text into a vector embedding
@@ -105,7 +106,11 @@ print(top_results)
   # Return the list of most relevant chunks
 def respond(message, history):
     messages = [{"role":"system", "content": "You are a friendly chatbot."}]
-    
+    if history:
+        messages.extend(history)
+
+    messages.append({"role": "user", "content": message})
+
     response = client.chat_completion(messages, max_tokens=20,temperature=0.7,)
 
     return response.choices[0].message.content.strip()
