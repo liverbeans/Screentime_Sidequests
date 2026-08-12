@@ -1,4 +1,8 @@
 import gradio as gr
+import gradio as gr
+
+with gr.Blocks(theme=gr.Theme.from_hub("NeoPy/BoyKisser")) as demo:
+    ...
 from huggingface_hub import InferenceClient
 
 # This is the same pattern from the Generative AI lesson! It uses the
