@@ -45,10 +45,7 @@ def preprocess_text(text):
 # Call the preprocess_text function and store the result in a cleaned_chunks variable
 cleaned_chunks = preprocess_text(research_text) # Complete this line
 
-def respond(message, history):
-    messages = [{"role": "system", "content": "You are a friendly chatbot."}]
-# Load the pre-trained embedding model that converts text to vectors
-model = SentenceTransformer('all-MiniLM-L6-v2')
+
 
 def create_embeddings(text_chunks):
   # Convert each text chunk into a vector embedding and store as a tensor
