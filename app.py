@@ -106,12 +106,10 @@ top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
 # Print the top results
 print(top_results)
   # Return the list of most relevant chunks
-
-    response = client.chat_completion(
-        messages,
-        max_tokens=20,
-        temperature=0.7,
-    )
+def respond(message, history):
+    messages = [{"role":"system", "content": "You are a friendly chatbot."}]
+    
+    response = client.chat_completion(messages, max_tokens=20,temperature=0.7,)
 
     return response.choices[0].message.content.strip()
 
