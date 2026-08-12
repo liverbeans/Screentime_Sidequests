@@ -97,7 +97,8 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   for i in top_indices:
     chunk= text_chunks[i]
     top_chunks.append(chunk)
-
+    
+  return top_chunks
  
   # Return the list of most relevant chunks
 def respond(message, history):
