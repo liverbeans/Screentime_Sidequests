@@ -117,7 +117,7 @@ def respond(message, history):
 
     messages.append({"role": "user", "content": message})
 
-    response = client.chat_completion(messages, max_tokens=20,temperature=0.7,)
+    response = client.chat_completion(messages, max_tokens=100,temperature=0.7,)
 
     return response.choices[0].message.content.strip()
 
