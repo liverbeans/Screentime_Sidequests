@@ -1,6 +1,10 @@
 import gradio as gr
 
-chatbot.launch(theme="NeoPy/BoyKisser")
+boykisser_theme = gr.Theme.from_hub("NeoPy/BoyKisser")
+
+
+chatbot = gr.ChatInterface(respond, theme=boykisser_theme)
+chatbot.launch()
 
 from huggingface_hub import InferenceClient
 
