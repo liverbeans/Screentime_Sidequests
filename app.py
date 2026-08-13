@@ -129,9 +129,9 @@ chatbot = gr.ChatInterface(respond,
                            
      title="｡  🎀  𝒮𝒸𝓇𝑒𝑒𝓃𝓉𝒾𝓂𝑒 𝒮𝒾𝒹𝑒𝓆𝓊𝑒𝓈𝓉𝓈  🎀  ｡",
                            
-    description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box, or you can click the checkboxes by opening up the additional inputs ", 
+    description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific, or you can click the checkboxes by opening up the additional inputs ", 
     
-    additional_inputs=[ gr.CheckboxGroup (["going to the park", "going shopping","going to the beach", "cooking"," painting","going on a hike"],label="activities"), 
+    additional_inputs=[ gr.CheckboxGroup (["shopping", "art","sports/working out", "cooking"," reading","video games", "music","writing"],label="activities"), 
      
     gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
