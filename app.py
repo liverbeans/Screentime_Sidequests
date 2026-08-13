@@ -102,19 +102,26 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   return top_chunks
  
   # Return the list of most relevant chunks
-def respond(message, history):
-    # Call the get_top_chunks function with the original query
+def respond(message, history, activities, ages):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
-    messages = [{"role":"system", "content": f"You are a friendly chatbot. Use the following research context to help answer questions:\n\n{"\n".join(top_results)}"}]
+    context = "\n".join(top_results)
+    
+    activities_str = ", ".join(activities) if activities else "no specific activities"
+    
+    system_prompt = (
+        f"You are a friendly chatbot helping a {ages} find screen-free activities. "
+        f"They're interested in: {activities_str}. "
+        f"Use the following research context to help answer questions:\n\n{context}"
+    )
+    
+    messages = [{"role": "system", "content": system_prompt}]
     
     if history:
         messages.extend(history)
-
     messages.append({"role": "user", "content": message})
-
-    response = client.chat_completion(messages, max_tokens=2000,temperature=0.5,)
-
-    return response.choices[0].message.content.strip()
+    
+    response = client.chat_completion(messages, max_tokens=2000, temperature=0.5)
+    return response.choices[0].message.content.strip()   # <- stays last, unindented from the block above it
 
 
 chatbot = gr.ChatInterface(respond,
