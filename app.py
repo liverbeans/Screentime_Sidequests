@@ -111,7 +111,8 @@ def respond(message, history, activities, ages):
     system_prompt = (
     f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices. "
     f"Use the following research context to help answer questions:\n\n{context}\n\n"
-    f"IMPORTANT: The user is a {ages}. Tailor your suggestions specifically for a {ages} "
+    f"IMPORTANT: The user has {time} this amount of time. Tailor your suggestions specifically for a {time} as well as {ages} and {activities_str}"
+    f"IMPORTANT: The user is a {ages}. Tailor your suggestions specifically for a {ages}"
     f"— use age-appropriate language and activity difficulty. "
     f"They're especially interested in: {activities_str}.")
     
@@ -123,11 +124,7 @@ def respond(message, history, activities, ages):
     
     response = client.chat_completion(messages, max_tokens=2000, temperature=0.5)
     return response.choices[0].message.content.strip()   # <- stays last, unindented from the block above it
- custom_css = """
-h1 {
-    text-align: center;
-}
-"""
+
 
 chatbot = gr.ChatInterface(respond,
    
@@ -136,6 +133,7 @@ chatbot = gr.ChatInterface(respond,
     description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific, or you can click the checkboxes by opening up the additional inputs ", 
     
     additional_inputs=[ gr.CheckboxGroup (["shopping", "art","sports/working out", "cooking"," reading","video games", "music","writing"],label="activities"), 
+    gr.CheckboxGroup (["thirty minutes","one hour","two hours","three hourse","four hours","five+ hours"],label="time"),
      
     gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
