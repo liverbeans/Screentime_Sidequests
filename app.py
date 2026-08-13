@@ -117,9 +117,18 @@ def respond(message, history):
     return response.choices[0].message.content.strip()
 
 
-chatbot = gr.ChatInterface(respond,title="Screentime Sidequests")
+chatbot = gr.ChatInterface(respond,
+                           
+     title="Screentime Sidequests",
+                           
+    description = "Input your age,intrests, and time you want to spend off your screen!", 
+    
+    additional_inputs=[ gr.CheckboxGroup (["going to the park", "going shopping","going to the beach","cooking","painting"],label="activities"), 
+     
+    gr.Radio (["Kid", "Teenager", "Adult"], label="ages") ] )
 
 chatbot.launch(theme="NeoPy/BoyKisser")
+
 
 
 
