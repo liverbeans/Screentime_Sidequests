@@ -1,7 +1,7 @@
 import gradio as gr
-
-with gr.Blocks(theme="NeoPy/BoyKisser") as demo:
 from huggingface_hub import InferenceClient
+with gr.Blocks(theme="NeoPy/BoyKisser") as demo:
+    gr.Markdown("# our chatbot")
 
 # This is the same pattern from the Generative AI lesson! It uses the
 # Inference Provider API to send your messages to an AI model and get
