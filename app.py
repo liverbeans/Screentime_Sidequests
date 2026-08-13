@@ -102,13 +102,14 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   return top_chunks
  
   # Return the list of most relevant chunks
-def respond(message, history, activities, ages, time):
+def respond(message, history, activities, ages, time, name):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
     context = "\n".join(top_results)
     
     activities_str = ", ".join(activities) if activities else "no specific activities"
     
     system_prompt = (
+    f"Always refer to the user by {name}."
     f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices. "
     f"Use the following research context to help answer questions:\n\n{context}\n\n"
     f"IMPORTANT: The user has {time} this amount of time. Tailor your suggestions specifically for a {time} as well as {ages} and {activities_str}"
@@ -133,7 +134,7 @@ chatbot = gr.ChatInterface(respond,
     description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific with things like your budget, or you can click the checkboxes by opening up the additional inputs! ", 
     
     additional_inputs=[ gr.CheckboxGroup (["shopping", "art","sports/working out", "cooking"," reading","video games", "music","writing"],label="activities"), 
-    gr.CheckboxGroup (["thirty minutes","one hour","two hours","three hourse","four hours","five+ hours"],label="time"),
+    gr.Radio (["thirty minutes","one hour","two hours","three hourse","four hours","five+ hours"],label="time"),
      
     gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
