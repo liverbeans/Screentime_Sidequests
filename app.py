@@ -106,7 +106,7 @@ def respond(message, history, name, intrests, time, ages):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
     context = "\n".join(top_results)
     
-    intrests_str = ", ".join(activities) if activities else "no specific activities"
+    intrests_str = ", ".join(intrests) if activities else "no specific intrests"
     
     system_prompt = (
     f"Always refer to the user by {name}."
