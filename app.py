@@ -108,11 +108,13 @@ def respond(message, history, activities, ages):
     
     activities_str = ", ".join(activities) if activities else "no specific activities"
     
-    system_prompt = (
-        f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices, helping a {ages} find screen-free activities. "
-        f"They're interested in: {activities_str}. "
-        f"Use the following research context to help answer questions:\n\n{context}"
-    )
+   system_prompt = (
+    f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices. "
+    f"Use the following research context to help answer questions:\n\n{context}\n\n"
+    f"IMPORTANT: The user is a {ages}. Tailor your suggestions specifically for a {ages} "
+    f"— use age-appropriate language and activity difficulty. "
+    f"They're especially interested in: {activities_str}."
+)
     
     messages = [{"role": "system", "content": system_prompt}]
     
