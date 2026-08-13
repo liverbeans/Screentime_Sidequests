@@ -137,7 +137,7 @@ chatbot = gr.ChatInterface(respond,
      
     gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
-chatbot.launch(theme="NeoPy/BoyKisser",css=custom_css)
+chatbot.launch(theme="NeoPy/BoyKisser")
 
 
 
