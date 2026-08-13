@@ -102,7 +102,7 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   return top_chunks
  
   # Return the list of most relevant chunks
-def respond(message, history, activities, ages):
+def respond(message, history, activities, ages, time):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
     context = "\n".join(top_results)
     
