@@ -102,11 +102,11 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   return top_chunks
  
   # Return the list of most relevant chunks
-def respond(name, message, history, intrests, ages, time):
+def respond(message, history, name, intrests, time, ages):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
     context = "\n".join(top_results)
     
-    activities_str = ", ".join(activities) if activities else "no specific activities"
+    intrests_str = ", ".join(activities) if activities else "no specific activities"
     
     system_prompt = (
     f"Always refer to the user by {name}."
