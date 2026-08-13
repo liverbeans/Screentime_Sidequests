@@ -117,9 +117,9 @@ def respond(message, history):
     return response.choices[0].message.content.strip()
 
 
-chatbot = gr.ChatInterface(respond, theme="NeoPy/BoyKisser")
+chatbot = gr.ChatInterface(respond)
 
-chatbot.launch()
+chatbot.launch(theme="NeoPy/BoyKisser")
 
 
 
