@@ -109,7 +109,7 @@ def respond(message, history, activities, ages):
     activities_str = ", ".join(activities) if activities else "no specific activities"
     
     system_prompt = (
-        f"You are a friendly chatbot helping a {ages} find screen-free activities. "
+        f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices, helping a {ages} find screen-free activities. "
         f"They're interested in: {activities_str}. "
         f"Use the following research context to help answer questions:\n\n{context}"
     )
@@ -130,9 +130,9 @@ chatbot = gr.ChatInterface(respond,
                            
     description = "Input your age,intrests, and time you want to spend off your screen!", 
     
-    additional_inputs=[ gr.CheckboxGroup (["going to the park", "going shopping","going to the beach","cooking","painting"],label="activities"), 
+    additional_inputs=[ gr.CheckboxGroup (["going to the park", "going shopping","going to the beach","cooking","painting""going on a hike"],label="activities"), 
      
-    gr.Radio (["Kid", "Teenager", "Adult"], label="ages") ] )
+    gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
 chatbot.launch(theme="NeoPy/BoyKisser")
 
