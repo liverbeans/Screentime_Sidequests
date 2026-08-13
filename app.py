@@ -123,10 +123,14 @@ def respond(message, history, activities, ages):
     
     response = client.chat_completion(messages, max_tokens=2000, temperature=0.5)
     return response.choices[0].message.content.strip()   # <- stays last, unindented from the block above it
-
+ custom_css = """
+h1 {
+    text-align: center;
+}
+"""
 
 chatbot = gr.ChatInterface(respond,
-                           
+   
      title="｡  🎀  𝒮𝒸𝓇𝑒𝑒𝓃𝓉𝒾𝓂𝑒 𝒮𝒾𝒹𝑒𝓆𝓊𝑒𝓈𝓉𝓈  🎀  ｡",
                            
     description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific, or you can click the checkboxes by opening up the additional inputs ", 
@@ -135,7 +139,7 @@ chatbot = gr.ChatInterface(respond,
      
     gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
-chatbot.launch(theme="NeoPy/BoyKisser")
+chatbot.launch(theme="NeoPy/BoyKisser",css=custom_css)
 
 
 
