@@ -102,7 +102,7 @@ def get_top_chunks(query, chunk_embeddings, text_chunks):
   return top_chunks
  
   # Return the list of most relevant chunks
-def respond(message, history, activities, ages, time, name):
+def respond(name, message, history, intrests, ages, time):
     top_results = get_top_chunks(message, chunk_embeddings, cleaned_chunks)
     context = "\n".join(top_results)
     
@@ -112,10 +112,10 @@ def respond(message, history, activities, ages, time, name):
     f"Always refer to the user by {name}."
     f"You are a chill chatbot who is encouraging and uses emojis, and really tries to get people off their devices. "
     f"Use the following research context to help answer questions:\n\n{context}\n\n"
-    f"IMPORTANT: The user has {time} this amount of time. Tailor your suggestions specifically for a {time} as well as {ages} and {activities_str}"
+    f"IMPORTANT: The user has {time} this amount of time. Tailor your suggestions specifically for a {time} as well as {ages} and {intrests_str}"
     f"IMPORTANT: The user is a {ages}. Tailor your suggestions specifically for a {ages}"
     f"— use age-appropriate language and activity difficulty. "
-    f"They're especially interested in: {activities_str}.")
+    f"They're especially interested in: {intrests_str}.")
     
     messages = [{"role": "system", "content": system_prompt}]
     
@@ -133,10 +133,10 @@ chatbot = gr.ChatInterface(respond,
                            
     description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific with things like your budget, or you can click the checkboxes by opening up the additional inputs! ", 
     
-    additional_inputs=[ gr.CheckboxGroup (["shopping", "art","sports/working out", "cooking"," reading","video games", "music","writing"],label="activities"), 
+    additional_inputs=[ gr.Textbox(label="Your Name"), gr.CheckboxGroup (["shopping", "art","sports/working out", "cooking"," reading","video games", "music","writing"],label="intrests"), 
     gr.Radio (["thirty minutes","one hour","two hours","three hours","four hours","five+ hours"],label="time"),
      
-    gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") , gr.Textbox(label="Your Name")] )
+    gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
 
 chatbot.launch(theme="NeoPy/BoyKisser")
 
