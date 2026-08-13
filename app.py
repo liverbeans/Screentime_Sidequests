@@ -117,7 +117,7 @@ def respond(message, history):
     return response.choices[0].message.content.strip()
 
 
-chatbot = gr.ChatInterface(respond)
+chatbot = gr.ChatInterface(respond,title="Screentime Sidequests")
 
 chatbot.launch(theme="NeoPy/BoyKisser")
 
