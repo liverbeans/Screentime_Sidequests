@@ -133,10 +133,10 @@ chatbot = gr.ChatInterface(respond,
                            
     description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific with things like your budget, or you can click the checkboxes by opening up the additional inputs! ", 
     
-    additional_inputs=[ gr.Textbox(label="Your Name"), gr.CheckboxGroup (["shopping", "art","sports/working out","nature","collecting","learning","codinng" ,"baking","exploring","cooking"," reading","video games", "music","writing"],label="intrests"), 
+    additional_inputs=[ gr.Textbox(label="Your Name"), gr.CheckboxGroup (["shopping", "art","sports/working out","nature","collecting","learning","coding" ,"baking","exploring","cooking"," reading","video games", "music","writing"],label="intrests"), 
     gr.Radio (["thirty minutes","one hour","two hours","three hours","four hours","five+ hours"],label="time"),
      
-    gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-50","50+"], label="ages") ] )
+    gr.Radio (["5-7", "8-10", "11-13","14-17","18-22","23-25","25-30","31-40","41-49","50-59","60+"], label="ages") ] )
 
 chatbot.launch(theme="NeoPy/BoyKisser")
 
