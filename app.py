@@ -1,10 +1,6 @@
 import gradio as gr
 from huggingface_hub import InferenceClient
 
-with gr.Blocks() as demo: 
-    # 2. PLACE YOUR BANNER HERE (The very first UI element) 
-    gr.Image( value="sea.png", show_label=False, show_download_button=False, interactive=False, container=False )
-
 # This is the same pattern from the Generative AI lesson! It uses the
 # Inference Provider API to send your messages to an AI model and get
 # a response back. Swap out the model below for a different one if
@@ -134,7 +130,7 @@ chatbot = gr.ChatInterface(respond,
    
      title="｡  🎀  𝒮𝒸𝓇𝑒𝑒𝓃𝓉𝒾𝓂𝑒 𝒮𝒾𝒹𝑒𝓆𝓊𝑒𝓈𝓉𝓈  🎀  ｡",
                            
-    description = "Input your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific with things like your budget, or you can click the checkboxes by opening up the additional inputs! ", 
+    description = "![banner](sea.png)\n\nInput your age, interests, and time you want to spend off your screen! You can do this in the text box if you want to be more specific with things like your budget, or you can click the checkboxes by opening up the additional inputs! ",
     
     additional_inputs=[ gr.Textbox(label="Your Name"), gr.CheckboxGroup (["shopping", "art","sports/working out","nature","collecting","learning","coding" ,"baking","exploring","cooking"," reading","video games", "music","writing"],label="intrests"), 
     gr.Radio (["thirty minutes","one hour","two hours","three hours","four hours","five+ hours"],label="time"),
