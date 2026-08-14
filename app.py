@@ -1,6 +1,9 @@
 import gradio as gr
 from huggingface_hub import InferenceClient
 
+with grad.Blocks() as demo: 
+    # 2. PLACE YOUR BANNER HERE (The very first UI element) 
+    grad.Image( value="sea.png", show_label=False, show_download_button=False, interactive=False, container=False )
 
 # This is the same pattern from the Generative AI lesson! It uses the
 # Inference Provider API to send your messages to an AI model and get
